@@ -111,6 +111,8 @@ func (c CheckResult) ToABCI() abci.ResponseCheckTx {
 	}
 }
 
+
+
 // DeliverTxError converts any error into a abci.ResponseDeliverTx, preserving
 // as much info as possible.
 // When in debug mode always the full error information is returned.
